@@ -3,8 +3,10 @@ const isProduction = enviroment === 'production'
 const isDevelopment = enviroment === 'development'
 const appVersion = require('../package.json').version
 const settings = require(`./${enviroment}`).default
+import paths from './base/paths'
 
 const appConfiguration = {
+  paths,
   enviroment,
   isProduction,
   isDevelopment,

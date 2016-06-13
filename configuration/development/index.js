@@ -1,9 +1,7 @@
 import { server } from './server'
-import { webpack } from './webpack'
-import staticResources from '../base/static'
+import webpack from './webpack'
 
 export default {
-  static: staticResources,
   server,
   webpack
 }

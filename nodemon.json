@@ -2,9 +2,10 @@
   "ignore": [
     "\\.git",
     "node_modules/*",
-    "src"
+    "static",
+    "source"
   ],
-  "verbose": false,
+  "verbose": true,
   "watch": [
     "configuration",
     "server"
